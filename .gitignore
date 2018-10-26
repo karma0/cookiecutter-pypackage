@@ -95,3 +95,18 @@ target/
 # Cookiecutter
 output/
 python_boilerplate/
+
+.python-version
+
+.mypy_cache
+*@neomake*
+
+.tfstate
+.terraform
+*/.terraform
+
+local
+*.pem
+vault.txt
+config.hcl
+apikey.txt
